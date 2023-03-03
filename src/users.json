@@ -1,0 +1,36 @@
+ [
+    {
+        "id": 1,
+        "user": "Elon Reeve Musk",
+        "tweets": 777,
+        "followers": 100500,
+        "avatar": "Hansel"
+    },
+    {
+        "id": 2,
+        "user": "Tom Hardy",
+        "tweets": 2358,
+        "followers": 255255,
+        "avatar": "Hansel"
+    },
+    {
+        "id": 3,
+        "user": "Janifer Aniston",
+        "tweets": 58997,
+        "followers": 400400,
+        "avatar": "../../images/Hansel.png"
+    },
+    {
+        "id": 4,
+        "user": "Regina Phelangy",
+        "tweets": 10000,
+        "followers": 10100500,
+        "avatar": "../../images/Hansel.png"
+    },
+    {
+        "id": 5,
+        "user": "Ken Adams",
+        "tweets": 50000,
+        "followers": 100,
+        "avatar": "../../images/Hansel.png"
+    }]
