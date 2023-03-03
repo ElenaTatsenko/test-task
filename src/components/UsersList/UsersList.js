@@ -1,8 +1,9 @@
 import UserCard from '../UserCard/UserCard';
-import { List } from './UsersList.styled';
+import { ListBox, List } from './UsersList.styled';
 
 const UsersList = ({ users }) => {
   return (
+    <ListBox>
     <List>
       {users.map(({ id, user, tweets, followers, avatar }) => {
         return (
@@ -16,6 +17,7 @@ const UsersList = ({ users }) => {
         );
       })}
     </List>
+    </ListBox>
   );
 };
 
