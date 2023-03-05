@@ -55,4 +55,4 @@ export const UserProps = styled.li`
   text-transform: uppercase;
   color: #ebd8ff;
   margin: 0 0 16px 0;
-`//
+`

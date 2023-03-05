@@ -21,4 +21,3 @@ export const Btn = styled.button`
       color: #ffffff;
       background-color: #EBD8FF;}
 `;
-//

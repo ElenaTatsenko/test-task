@@ -45,4 +45,3 @@ const UsersList = ({ users }) => {
 };
 
 export default UsersList;
-//
