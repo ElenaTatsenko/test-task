@@ -3,13 +3,11 @@ import { ListBox, List } from './UsersList.styled';
 import { useState } from 'react';
 
 const UsersList = ({ users }) => {
-  //console.log(users)
   const [followed, setFollowed] = useState(
     JSON.parse(window.localStorage.getItem('followed')) || []
   );
 
-  const onClick = (id) => {
-    //console.log(id)
+  const onClick = id => {
     const newFollowed = [...followed];
 
     if (newFollowed.includes(id)) {
